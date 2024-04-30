@@ -7,10 +7,17 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #fafafc;
-    color: #777;
+    /*background-color: #fafafc;*/
+    background-image: url("ai.jpeg");
+    background-size: cover; /* Make the background image cover the entire viewport */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 p {
@@ -76,7 +83,7 @@ p {
 .answer {
     padding: 13px 14px;
     border: solid 0.5px #cacaca;
-    background-color: #fff;
+    background-color: #011f5169;
     margin: 5px;
     font-size: 15px;
     font-weight: 200;
